@@ -1,0 +1,30 @@
+.footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    overflow: hidden;
+    border-top: 1px solid #595f67;
+    color: #949da9;
+}
+
+.footer_content{
+    display: flex;
+    padding: 2em 15%;
+    justify-content: space-between;
+}
+
+.footer button{
+    padding: 1em;
+    background: #16171d;
+    color: #949da9;
+    outline: none;
+    border: 1px solid #282a2f;
+    border-radius: 2em ;
+    cursor: pointer;
+}
+
+.footer button:hover{
+    color:#e0e2e5;
+    background: #1d1e24;
+    transition: .2s;
+}

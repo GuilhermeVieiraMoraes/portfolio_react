@@ -1,0 +1,24 @@
+
+
+.App{
+  width: 100vw;
+}
+
+.grotesk{
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 2.8rem;
+  font-weight: 500;
+  height: 52px;
+}
+
+.gradient-text{
+  background: linear-gradient(to right, #2294e3, #4b4bc3, #7e57c2);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: sans-serif; 
+  font-weight: bold;
+  font-size: 2.9rem;
+  font-weight: 400;
+}
+
