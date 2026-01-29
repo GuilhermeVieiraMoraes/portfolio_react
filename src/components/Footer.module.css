@@ -1,10 +1,11 @@
 .footer{
-    position: absolute;
+    position: relative;
     width: 100%;
     bottom: 0;
     overflow: hidden;
     border-top: 1px solid #595f67;
     color: #949da9;
+    margin-top: 2em;
 }
 
 .footer_content{

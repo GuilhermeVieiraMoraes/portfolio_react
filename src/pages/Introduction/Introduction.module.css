@@ -2,6 +2,7 @@
 
 .container{
     width: 100%;
+    margin-top: 6em;
 }
 
 .title_container{
@@ -46,4 +47,13 @@
     margin-top: 1.2em;
     display: flex;
     gap: 1em
+}
+
+.about{
+    background: #282a2f;
+    border: 1px solid #40434a;
+    margin-top: 2em;
+    padding: 1em;
+    border-radius: 1em;
+    box-shadow: 0px 0px 40px 0px #2294e3;
 }
