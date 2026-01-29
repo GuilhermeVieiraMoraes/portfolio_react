@@ -1,27 +1,29 @@
-import styles from './Navbar.module.css'
+import styles from './Navbar.module.css';
 
 import { FiBookOpen, FiMail } from "react-icons/fi";
+
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
   return (
     <nav className={styles.navbar}>
-        <span>Guilherme Vieira Moraes</span>
+        <Link className={styles.logo} to="introduction" smooth={true} duration={500}>Guilherme Vieira Moraes</Link>
         <ul className={styles.nav_list}>
             <li>
-                <a href="">Projetos</a>
+                <Link to="projects" smooth={true} duration={500}>Projetos</Link>
             </li>
             <li>
-                <a href="">Habilidades</a>
+                <Link to="skills" smooth={true} duration={500}>Habilidades</Link>
             </li>
             <li>
-                <a href="">Experiência</a>
-            </li>
-            <li>
-                <a href="">Contato</a>
+                <Link to="skills" smooth={true} duration={500}>Contato</Link>
             </li>
         </ul>
         <div className={styles.navbar_btn_list}>
-            <button className={styles.navbar_btn_resumee}><FiBookOpen />Curriculo</button>
+            <a
+            href='/portfolio_react/curriculo.pdf'
+            download
+            className={styles.navbar_btn_resumee}><FiBookOpen />Curriculo</a>
             <button className={styles.navbar_btn_mail}><FiMail />Falar comigo</button>
         </div>
     </nav>

@@ -23,14 +23,15 @@
     padding: .4em .6em;
     border-radius: 10em;
     transition: .5s;
+    cursor: pointer;
 }
 
-.navbar a:hover {
+.navbar li a:hover {
     background: #15181c;
     color: #e0e2e5;
 }
 
-.navbar span {
+.navbar .logo {
     background: linear-gradient(to right, #2294e3, #4b4bc3, #7e57c2);
     -webkit-background-clip: text;
     background-clip: text;
@@ -39,6 +40,7 @@
     font-weight: bold;
     font-weight: 400;
     font-family: "Space Grotesk", sans-serif;
+    cursor: pointer;
 }
 
 .navbar_btn_list {
@@ -61,6 +63,11 @@
     border: 1px solid #282a2f;
     border-radius: 2em;
     cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
 }
 
 .navbar_btn_mail {

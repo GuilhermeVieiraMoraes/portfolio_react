@@ -6,7 +6,7 @@ import { FaNodeJs, FaReact, FaHtml5, FaCss3Alt, FaDocker, FaPython } from "react
 
 const Skills = () => {
     return (
-        <div className={styles.skills_container}>
+        <div id='skills' className={styles.skills_container}>
             <p className="subtext"><LuBrain />Minhas tecnologias</p>
             <h2>Habilidades</h2>
             <div className={styles.skills_card}>

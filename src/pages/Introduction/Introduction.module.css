@@ -2,7 +2,7 @@
 
 .container{
     width: 100%;
-    margin-top: 6em;
+    padding-top: 6em;
 }
 
 
@@ -44,6 +44,10 @@
     margin-top: 1.2em;
     display: flex;
     gap: 1em
+}
+
+.title_socials a{
+    text-decoration: none;
 }
 
 .about{

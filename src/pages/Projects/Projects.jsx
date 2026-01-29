@@ -5,7 +5,7 @@ import { FiBriefcase } from "react-icons/fi";
 
 const Projects = () => {
   return (
-    <div className={styles.projects}>
+    <div id='projects' className={styles.projects}>
         <p className='subtext'><FiBriefcase /> Trabalhos selecionados</p>
         <h2>Projetos</h2>
         <div className={styles.card_container}>
