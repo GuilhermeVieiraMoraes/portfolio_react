@@ -16,7 +16,7 @@ const Navbar = () => {
                 <Link to="skills" smooth={true} duration={500}>Habilidades</Link>
             </li>
             <li>
-                <Link to="skills" smooth={true} duration={500}>Contato</Link>
+                <Link to="contact" smooth={true} duration={500}>Contato</Link>
             </li>
         </ul>
         <div className={styles.navbar_btn_list}>
