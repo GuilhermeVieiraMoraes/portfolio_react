@@ -11,13 +11,13 @@
     z-index: 1;
 }
 
-.navbar ul {
+.nav_list {
     list-style: none;
     display: flex;
     gap: .5em;
 }
 
-.navbar ul li a {
+.nav_list li a {
     text-decoration: none;
     color: #949da9;
     padding: .4em .6em;
@@ -71,4 +71,10 @@
     border: 1px solid #282a2f;
     border-radius: 2em;
     cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .nav_list{
+        display: none;
+    }
 }

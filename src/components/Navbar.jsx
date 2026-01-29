@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className={styles.navbar}>
         <span>Guilherme Vieira Moraes</span>
-        <ul>
+        <ul className={styles.nav_list}>
             <li>
                 <a href="">Projetos</a>
             </li>
