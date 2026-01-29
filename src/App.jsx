@@ -7,6 +7,7 @@ import Navbar from './components/Navbar'
 // pages
 import Introduction from './pages/Introduction/Introduction'
 import Projects from './pages/Projects/Projects'
+import Skills from './pages/Skills/Skills'
 
 
 
@@ -17,6 +18,7 @@ function App() {
       <main>
         <Introduction />
         <Projects />
+        <Skills />
       </main>
       <Footer />
     </div>

@@ -63,4 +63,7 @@ h2 {
 
 .subtext{
   color: #949da9;
+  display: flex;
+  align-items: center;
+  gap:0.25rem;
 }

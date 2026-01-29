@@ -1,0 +1,26 @@
+.skills_container{
+    margin-top: 6rem;
+}
+
+.skills_card{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0.03));
+    padding: 1.2em;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    box-shadow: 0 0 0 1px hsl(220 18% 16% / 0.9), 0 30px 80px -44px rgba(0, 0, 0, 0.86);
+    backdrop-filter: blur(10px);
+    border-radius: 1.3rem;
+}
+
+.skills_card ul{
+    list-style: none;
+    display: flex;
+    gap:1rem;
+    flex-wrap: wrap;
+}
+
+.skills_card ul li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
