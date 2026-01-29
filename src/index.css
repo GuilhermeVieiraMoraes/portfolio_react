@@ -13,8 +13,34 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+body{
+  overflow-x: hidden;
+}
 
-*{
-  margin:0;
+main{
+  margin: 0 15%;
+}
+
+* {
+  margin: 0;
   padding: 0;
+}
+
+.btn {
+  padding: .6em 1em;
+  background: #16171d;
+  color: #949da9;
+  outline: none;
+  border: 1px solid #282a2f;
+  border-radius: 2em;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap:.5em;
+}
+
+.btn:hover {
+  color: #e0e2e5;
+  background: #1d1e24;
+  transition: .2s;
 }

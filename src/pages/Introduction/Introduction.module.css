@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+.container{
+    width: 100%;
+}
+
+.title_container{
+    max-width: 65%;
+}
+
+
+.grotesk{
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 500;
+  height: 52px;
+}
+
+.gradient_text{
+  background: linear-gradient(to right, #2294e3 , #4b4bc3, #7e57c2);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: sans-serif; 
+  font-weight: bold;
+  font-size: 3.5rem;
+  font-weight: 400;
+  font-family: "Space Grotesk", sans-serif;
+  height: 62px;
+}
+
+.subtext{
+    color: #949da9;
+    font-family: "DM Sans", sans-serif;
+    font-size: 1.2rem;
+    margin-top: 1.2em;
+}
+
+.btn_list{
+    display: flex;
+    gap: 1em;
+    margin-top: 1.2em;
+}
+
+.title_socials{
+    margin-top: 1.2em;
+    display: flex;
+    gap: 1em
+}

@@ -1,5 +1,7 @@
 import styles from './Navbar.module.css'
 
+import { FiBookOpen, FiMail } from "react-icons/fi";
+
 const Navbar = () => {
   return (
     <nav className={styles.navbar}>
@@ -18,9 +20,9 @@ const Navbar = () => {
                 <a href="">Contato</a>
             </li>
         </ul>
-        <div>
-            <button>Curriculo</button>
-            <button>Falar comigo</button>
+        <div className={styles.navbar_btn_list}>
+            <button className={styles.navbar_btn_resumee}><FiBookOpen />Curriculo</button>
+            <button className={styles.navbar_btn_mail}><FiMail />Falar comigo</button>
         </div>
     </nav>
   )

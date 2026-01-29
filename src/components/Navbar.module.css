@@ -1,4 +1,4 @@
-.navbar{
+.navbar {
     display: flex;
     padding: 1em .5em;
     border-bottom: 1px solid #595f67;
@@ -11,7 +11,7 @@
     gap: .5em;
 }
 
-.navbar ul li a{
+.navbar ul li a {
     text-decoration: none;
     color: #949da9;
     padding: .4em .6em;
@@ -19,7 +19,50 @@
     transition: .5s;
 }
 
-.navbar a:hover{
+.navbar a:hover {
     background: #15181c;
-    color:#e0e2e5;
+    color: #e0e2e5;
+}
+
+.navbar span {
+    background: linear-gradient(to right, #2294e3, #4b4bc3, #7e57c2);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-weight: 400;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.navbar_btn_list {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.navbar_btn_list button {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.navbar_btn_resumee {
+    padding: .6em 1em;
+    background: #17181d;
+    color: #e0e2e5;
+    outline: none;
+    border: 1px solid #282a2f;
+    border-radius: 2em;
+    cursor: pointer;
+}
+
+.navbar_btn_mail {
+    padding: .6em 1em;
+    background: #23b2f9;
+    color: black;
+    outline: none;
+    border: 1px solid #282a2f;
+    border-radius: 2em;
+    cursor: pointer;
 }

@@ -1,16 +1,23 @@
 import './App.css'
+
+// components
 import Footer from './components/Footer'
 import Navbar from './components/Navbar'
+
+// pages
+import Introduction from './pages/Introduction/Introduction'
 
 
 
 function App() {
   return (
     <div className='App'>
-      <Navbar/>
-      <h1 className='grotesk'>Desenvolvedor Frontend</h1>
-      <h1 className='gradient-text grotesk'>Guilherme Vieira Moraes</h1>
-      <Footer/>
+      <Navbar />
+      <main>
+        <Introduction />
+        
+      </main>
+      <Footer />
     </div>
   )
 }
