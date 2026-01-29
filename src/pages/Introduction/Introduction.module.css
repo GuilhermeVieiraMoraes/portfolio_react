@@ -50,10 +50,11 @@
 }
 
 .about{
-    background: #282a2f;
-    border: 1px solid #40434a;
     margin-top: 2em;
-    padding: 1em;
-    border-radius: 1em;
-    box-shadow: 0px 0px 40px 0px #2294e3;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.06), 0 18px 80px -40px rgba(0, 173, 255, 0.7), 0 22px 90px -52px rgba(168, 85, 247, 0.55);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0.03));
+    padding: 1.2em;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(10px);
+    border-radius: 1.3rem;
 }
