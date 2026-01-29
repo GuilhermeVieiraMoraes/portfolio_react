@@ -4,10 +4,12 @@ import './App.css'
 import Footer from './components/Footer'
 import Navbar from './components/Navbar'
 
+
 // pages
 import Introduction from './pages/Introduction/Introduction'
 import Projects from './pages/Projects/Projects'
 import Skills from './pages/Skills/Skills'
+import Contact from './pages/Contact/Contact'
 
 
 
@@ -19,6 +21,7 @@ function App() {
         <Introduction />
         <Projects />
         <Skills />
+        <Contact />
       </main>
       <Footer />
     </div>
