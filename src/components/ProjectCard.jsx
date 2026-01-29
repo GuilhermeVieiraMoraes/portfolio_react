@@ -4,7 +4,7 @@ const ProjectCard = () => {
     return (
         <div className={styles.project_card}>
             <h3>Nebula UI</h3>
-            <p>Landing de alta conversão com animações suaves e arquitetura de componentes reutilizável.</p>
+            <p className="subtext">Landing de alta conversão com animações suaves e arquitetura de componentes reutilizável.</p>
             <ul className={styles.project_list}>
                 <li>
                     Hero com gradientes e glassmorphism

@@ -55,3 +55,12 @@ main {
   border-radius: 2em;
   cursor: pointer;
 }
+
+h2 {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+}
+
+.subtext{
+  color: #949da9;
+}

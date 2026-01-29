@@ -6,8 +6,8 @@ import { FiBriefcase } from "react-icons/fi";
 const Projects = () => {
   return (
     <div className={styles.projects}>
-        <p><FiBriefcase /> Trabalhos selecionados</p>
-        <h2 className={styles.grotesk}>Projetos</h2>
+        <p className='subtext'><FiBriefcase /> Trabalhos selecionados</p>
+        <h2>Projetos</h2>
         <div className={styles.card_container}>
             <ProjectCard />
             <ProjectCard />
