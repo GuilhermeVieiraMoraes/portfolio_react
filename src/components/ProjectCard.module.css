@@ -1,0 +1,53 @@
+.project_card {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0.03));
+    padding: 1.2em;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    box-shadow: 0 0 0 1px hsl(220 18% 16% / 0.9), 0 30px 80px -44px rgba(0, 0, 0, 0.86);
+    backdrop-filter: blur(10px);
+    border-radius: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.project_tags {
+    display: flex;
+    gap: .5rem;
+}
+
+.project_tags span {
+    font-size: .75rem;
+    font-weight: bold;
+    padding: .25rem .7rem;
+    border-radius: .8rem;
+    background-color: oklch(26.014% 0.02838 263.907);
+    border: 1px solid oklch(35.455% 0.01925 260.695);
+}
+
+.project_list {
+    list-style: none;
+    padding: 0;
+    color: #E0E0E0;
+    padding: .25rem .2rem;
+}
+
+.project_list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: .25rem;
+}
+
+.project_list li::before {
+  content: "";
+  display: inline-block;
+  width: .5rem;
+  height: .5rem;
+  background-color: #8A2BE2; 
+  border-radius: 50%; 
+  margin-right: 15px;
+  flex-shrink: 0;
+}
+
+.card_btns{
+    display: flex;
+}

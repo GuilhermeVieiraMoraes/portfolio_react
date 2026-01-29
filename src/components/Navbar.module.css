@@ -8,6 +8,7 @@
     top:0;
     background: rgba(9, 11, 17, 0.9);
     align-items: center;
+    z-index: 1;
 }
 
 .navbar ul {

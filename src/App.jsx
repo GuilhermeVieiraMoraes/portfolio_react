@@ -6,6 +6,7 @@ import Navbar from './components/Navbar'
 
 // pages
 import Introduction from './pages/Introduction/Introduction'
+import Projects from './pages/Projects/Projects'
 
 
 
@@ -15,6 +16,7 @@ function App() {
       <Navbar />
       <main>
         <Introduction />
+        <Projects />
       </main>
       <Footer />
     </div>

@@ -13,11 +13,12 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-body{
+
+body {
   overflow-x: hidden;
 }
 
-main{
+main {
   margin: 0 15%;
 }
 
@@ -34,13 +35,23 @@ main{
   border: 1px solid #282a2f;
   border-radius: 2em;
   cursor: pointer;
-  display: flex;
   align-items: center;
-  gap:.5em;
+  gap: .5em;
+  display: flex;
 }
 
 .btn:hover {
   color: #e0e2e5;
   background: #1d1e24;
   transition: .2s;
+}
+
+.btn_accent {
+  padding: .6em 1em;
+  background: #23b2f9;
+  color: black;
+  outline: none;
+  border: 1px solid #282a2f;
+  border-radius: 2em;
+  cursor: pointer;
 }
