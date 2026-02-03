@@ -19,9 +19,9 @@ const Introduction = () => {
         <>
             <div id='introduction' className={styles.container}>
                 <div className={styles.title_container}>
-                    <h1 className={styles.grotesk}>Desenvolvedor Frontend</h1>
+                    <h1 className={styles.grotesk}>Desenvolvedor Fullstack</h1>
                     <h1 className={styles.gradient_text}>Guilherme Vieira Moraes</h1>
-                    <p className={styles.subtext}>Eu crio interfaces rápidas, bonitas e acessíveis — com atenção obsessiva ao detalhe e às micro-interações.</p>
+                    <p className={styles.subtext}>Eu crio aplicações Web rápidas, bonitas e acessíveis — com atenção obsessiva ao detalhe e às micro-interações.</p>
                 </div>
                 <div className={styles.btn_list}>
                     <button className='btn'>Ver projetos <GoArrowUpRight /></button>
